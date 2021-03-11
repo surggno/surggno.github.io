@@ -1,0 +1,934 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Socicon';
+  src:  url('../fonts/socicon.eot');
+  src:  url('../fonts/socicon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/socicon.woff2') format('woff2'),
+    url('../fonts/socicon.ttf') format('truetype'),
+    url('../fonts/socicon.woff') format('woff'),
+    url('../fonts/socicon.svg#socicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[data-icon]:before {
+  font-family: "socicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="socicon-"], [class*=" socicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Socicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.khuveaihlkkeu-eitaa:before {
+  content: "\e97c";
+}
+.khuveaihlkkeu-soroush:before {
+  content: "\e97d";
+}
+.khuveaihlkkeu-bale:before {
+  content: "\e97e";
+}
+.khuveaihlkkeu-zazzle:before {
+  content: "\e97b";
+}
+.khuveaihlkkeu-society6:before {
+  content: "\e97a";
+}
+.khuveaihlkkeu-redbubble:before {
+  content: "\e979";
+}
+.khuveaihlkkeu-avvo:before {
+  content: "\e978";
+}
+.khuveaihlkkeu-stitcher:before {
+  content: "\e977";
+}
+.khuveaihlkkeu-googlehangouts:before {
+  content: "\e974";
+}
+.khuveaihlkkeu-dlive:before {
+  content: "\e975";
+}
+.khuveaihlkkeu-vsco:before {
+  content: "\e976";
+}
+.khuveaihlkkeu-flipboard:before {
+  content: "\e973";
+}
+.khuveaihlkkeu-ubuntu:before {
+  content: "\e958";
+}
+.khuveaihlkkeu-artstation:before {
+  content: "\e959";
+}
+.khuveaihlkkeu-invision:before {
+  content: "\e95a";
+}
+.khuveaihlkkeu-torial:before {
+  content: "\e95b";
+}
+.khuveaihlkkeu-collectorz:before {
+  content: "\e95c";
+}
+.khuveaihlkkeu-seenthis:before {
+  content: "\e95d";
+}
+.khuveaihlkkeu-googleplaymusic:before {
+  content: "\e95e";
+}
+.khuveaihlkkeu-debian:before {
+  content: "\e95f";
+}
+.khuveaihlkkeu-filmfreeway:before {
+  content: "\e960";
+}
+.khuveaihlkkeu-gnome:before {
+  content: "\e961";
+}
+.khuveaihlkkeu-itchio:before {
+  content: "\e962";
+}
+.khuveaihlkkeu-jamendo:before {
+  content: "\e963";
+}
+.khuveaihlkkeu-mix:before {
+  content: "\e964";
+}
+.khuveaihlkkeu-sharepoint:before {
+  content: "\e965";
+}
+.khuveaihlkkeu-tinder:before {
+  content: "\e966";
+}
+.khuveaihlkkeu-windguru:before {
+  content: "\e967";
+}
+.khuveaihlkkeu-cdbaby:before {
+  content: "\e968";
+}
+.khuveaihlkkeu-elementaryos:before {
+  content: "\e969";
+}
+.khuveaihlkkeu-stage32:before {
+  content: "\e96a";
+}
+.khuveaihlkkeu-tiktok:before {
+  content: "\e96b";
+}
+.khuveaihlkkeu-gitter:before {
+  content: "\e96c";
+}
+.khuveaihlkkeu-letterboxd:before {
+  content: "\e96d";
+}
+.khuveaihlkkeu-threema:before {
+  content: "\e96e";
+}
+.khuveaihlkkeu-splice:before {
+  content: "\e96f";
+}
+.khuveaihlkkeu-metapop:before {
+  content: "\e970";
+}
+.khuveaihlkkeu-naver:before {
+  content: "\e971";
+}
+.khuveaihlkkeu-remote:before {
+  content: "\e972";
+}
+.khuveaihlkkeu-internet:before {
+  content: "\e957";
+}
+.khuveaihlkkeu-moddb:before {
+  content: "\e94b";
+}
+.khuveaihlkkeu-indiedb:before {
+  content: "\e94c";
+}
+.khuveaihlkkeu-traxsource:before {
+  content: "\e94d";
+}
+.khuveaihlkkeu-gamefor:before {
+  content: "\e94e";
+}
+.khuveaihlkkeu-pixiv:before {
+  content: "\e94f";
+}
+.khuveaihlkkeu-myanimelist:before {
+  content: "\e950";
+}
+.khuveaihlkkeu-blackberry:before {
+  content: "\e951";
+}
+.khuveaihlkkeu-wickr:before {
+  content: "\e952";
+}
+.khuveaihlkkeu-spip:before {
+  content: "\e953";
+}
+.khuveaihlkkeu-napster:before {
+  content: "\e954";
+}
+.khuveaihlkkeu-beatport:before {
+  content: "\e955";
+}
+.khuveaihlkkeu-hackerone:before {
+  content: "\e956";
+}
+.khuveaihlkkeu-hackernews:before {
+  content: "\e946";
+}
+.khuveaihlkkeu-smashwords:before {
+  content: "\e947";
+}
+.khuveaihlkkeu-kobo:before {
+  content: "\e948";
+}
+.khuveaihlkkeu-bookbub:before {
+  content: "\e949";
+}
+.khuveaihlkkeu-mailru:before {
+  content: "\e94a";
+}
+.khuveaihlkkeu-gitlab:before {
+  content: "\e945";
+}
+.khuveaihlkkeu-instructables:before {
+  content: "\e944";
+}
+.khuveaihlkkeu-portfolio:before {
+  content: "\e943";
+}
+.khuveaihlkkeu-codered:before {
+  content: "\e940";
+}
+.khuveaihlkkeu-origin:before {
+  content: "\e941";
+}
+.khuveaihlkkeu-nextdoor:before {
+  content: "\e942";
+}
+.khuveaihlkkeu-udemy:before {
+  content: "\e93f";
+}
+.khuveaihlkkeu-livemaster:before {
+  content: "\e93e";
+}
+.khuveaihlkkeu-crunchbase:before {
+  content: "\e93b";
+}
+.khuveaihlkkeu-homefy:before {
+  content: "\e93c";
+}
+.khuveaihlkkeu-calendly:before {
+  content: "\e93d";
+}
+.khuveaihlkkeu-realtor:before {
+  content: "\e90f";
+}
+.khuveaihlkkeu-tidal:before {
+  content: "\e910";
+}
+.khuveaihlkkeu-qobuz:before {
+  content: "\e911";
+}
+.khuveaihlkkeu-natgeo:before {
+  content: "\e912";
+}
+.khuveaihlkkeu-mastodon:before {
+  content: "\e913";
+}
+.khuveaihlkkeu-unsplash:before {
+  content: "\e914";
+}
+.khuveaihlkkeu-homeadvisor:before {
+  content: "\e915";
+}
+.khuveaihlkkeu-angieslist:before {
+  content: "\e916";
+}
+.khuveaihlkkeu-codepen:before {
+  content: "\e917";
+}
+.khuveaihlkkeu-slack:before {
+  content: "\e918";
+}
+.khuveaihlkkeu-openaigym:before {
+  content: "\e919";
+}
+.khuveaihlkkeu-logmein:before {
+  content: "\e91a";
+}
+.khuveaihlkkeu-fiverr:before {
+  content: "\e91b";
+}
+.khuveaihlkkeu-gotomeeting:before {
+  content: "\e91c";
+}
+.khuveaihlkkeu-aliexpress:before {
+  content: "\e91d";
+}
+.khuveaihlkkeu-guru:before {
+  content: "\e91e";
+}
+.khuveaihlkkeu-appstore:before {
+  content: "\e91f";
+}
+.khuveaihlkkeu-homes:before {
+  content: "\e920";
+}
+.khuveaihlkkeu-zoom:before {
+  content: "\e921";
+}
+.khuveaihlkkeu-alibaba:before {
+  content: "\e922";
+}
+.khuveaihlkkeu-craigslist:before {
+  content: "\e923";
+}
+.khuveaihlkkeu-wix:before {
+  content: "\e924";
+}
+.khuveaihlkkeu-redfin:before {
+  content: "\e925";
+}
+.khuveaihlkkeu-googlecalendar:before {
+  content: "\e926";
+}
+.khuveaihlkkeu-shopify:before {
+  content: "\e927";
+}
+.khuveaihlkkeu-freelancer:before {
+  content: "\e928";
+}
+.khuveaihlkkeu-seedrs:before {
+  content: "\e929";
+}
+.khuveaihlkkeu-bing:before {
+  content: "\e92a";
+}
+.khuveaihlkkeu-doodle:before {
+  content: "\e92b";
+}
+.khuveaihlkkeu-bonanza:before {
+  content: "\e92c";
+}
+.khuveaihlkkeu-squarespace:before {
+  content: "\e92d";
+}
+.khuveaihlkkeu-toptal:before {
+  content: "\e92e";
+}
+.khuveaihlkkeu-gust:before {
+  content: "\e92f";
+}
+.khuveaihlkkeu-ask:before {
+  content: "\e930";
+}
+.khuveaihlkkeu-trulia:before {
+  content: "\e931";
+}
+.khuveaihlkkeu-loomly:before {
+  content: "\e932";
+}
+.khuveaihlkkeu-ghost:before {
+  content: "\e933";
+}
+.khuveaihlkkeu-upwork:before {
+  content: "\e934";
+}
+.khuveaihlkkeu-fundable:before {
+  content: "\e935";
+}
+.khuveaihlkkeu-booking:before {
+  content: "\e936";
+}
+.khuveaihlkkeu-googlemaps:before {
+  content: "\e937";
+}
+.khuveaihlkkeu-zillow:before {
+  content: "\e938";
+}
+.khuveaihlkkeu-niconico:before {
+  content: "\e939";
+}
+.khuveaihlkkeu-toneden:before {
+  content: "\e93a";
+}
+.khuveaihlkkeu-augment:before {
+  content: "\e908";
+}
+.khuveaihlkkeu-bitbucket:before {
+  content: "\e909";
+}
+.khuveaihlkkeu-fyuse:before {
+  content: "\e90a";
+}
+.khuveaihlkkeu-yt-gaming:before {
+  content: "\e90b";
+}
+.khuveaihlkkeu-sketchfab:before {
+  content: "\e90c";
+}
+.khuveaihlkkeu-mobcrush:before {
+  content: "\e90d";
+}
+.khuveaihlkkeu-microsoft:before {
+  content: "\e90e";
+}
+.khuveaihlkkeu-pandora:before {
+  content: "\e907";
+}
+.khuveaihlkkeu-messenger:before {
+  content: "\e906";
+}
+.khuveaihlkkeu-gamewisp:before {
+  content: "\e905";
+}
+.khuveaihlkkeu-bloglovin:before {
+  content: "\e904";
+}
+.khuveaihlkkeu-tunein:before {
+  content: "\e903";
+}
+.khuveaihlkkeu-gamejolt:before {
+  content: "\e901";
+}
+.khuveaihlkkeu-trello:before {
+  content: "\e902";
+}
+.khuveaihlkkeu-spreadshirt:before {
+  content: "\e900";
+}
+.khuveaihlkkeu-500px:before {
+  content: "\e000";
+}
+.khuveaihlkkeu-8tracks:before {
+  content: "\e001";
+}
+.khuveaihlkkeu-airbnb:before {
+  content: "\e002";
+}
+.khuveaihlkkeu-alliance:before {
+  content: "\e003";
+}
+.khuveaihlkkeu-amazon:before {
+  content: "\e004";
+}
+.khuveaihlkkeu-amplement:before {
+  content: "\e005";
+}
+.khuveaihlkkeu-android:before {
+  content: "\e006";
+}
+.khuveaihlkkeu-angellist:before {
+  content: "\e007";
+}
+.khuveaihlkkeu-apple:before {
+  content: "\e008";
+}
+.khuveaihlkkeu-appnet:before {
+  content: "\e009";
+}
+.khuveaihlkkeu-baidu:before {
+  content: "\e00a";
+}
+.khuveaihlkkeu-bandcamp:before {
+  content: "\e00b";
+}
+.khuveaihlkkeu-battlenet:before {
+  content: "\e00c";
+}
+.khuveaihlkkeu-mixer:before {
+  content: "\e00d";
+}
+.khuveaihlkkeu-bebee:before {
+  content: "\e00e";
+}
+.khuveaihlkkeu-bebo:before {
+  content: "\e00f";
+}
+.khuveaihlkkeu-behance:before {
+  content: "\e010";
+}
+.khuveaihlkkeu-blizzard:before {
+  content: "\e011";
+}
+.khuveaihlkkeu-blogger:before {
+  content: "\e012";
+}
+.khuveaihlkkeu-buffer:before {
+  content: "\e013";
+}
+.khuveaihlkkeu-chrome:before {
+  content: "\e014";
+}
+.khuveaihlkkeu-coderwall:before {
+  content: "\e015";
+}
+.khuveaihlkkeu-curse:before {
+  content: "\e016";
+}
+.khuveaihlkkeu-dailymotion:before {
+  content: "\e017";
+}
+.khuveaihlkkeu-deezer:before {
+  content: "\e018";
+}
+.khuveaihlkkeu-delicious:before {
+  content: "\e019";
+}
+.khuveaihlkkeu-deviantart:before {
+  content: "\e01a";
+}
+.khuveaihlkkeu-diablo:before {
+  content: "\e01b";
+}
+.khuveaihlkkeu-digg:before {
+  content: "\e01c";
+}
+.khuveaihlkkeu-discord:before {
+  content: "\e01d";
+}
+.khuveaihlkkeu-disqus:before {
+  content: "\e01e";
+}
+.khuveaihlkkeu-douban:before {
+  content: "\e01f";
+}
+.khuveaihlkkeu-draugiem:before {
+  content: "\e020";
+}
+.khuveaihlkkeu-dribbble:before {
+  content: "\e021";
+}
+.khuveaihlkkeu-drupal:before {
+  content: "\e022";
+}
+.khuveaihlkkeu-ebay:before {
+  content: "\e023";
+}
+.khuveaihlkkeu-ello:before {
+  content: "\e024";
+}
+.khuveaihlkkeu-endomodo:before {
+  content: "\e025";
+}
+.khuveaihlkkeu-envato:before {
+  content: "\e026";
+}
+.khuveaihlkkeu-etsy:before {
+  content: "\e027";
+}
+.gtqppggkljiizqt:before {
+  content: "\e028";
+}
+.khuveaihlkkeu-feedburner:before {
+  content: "\e029";
+}
+.khuveaihlkkeu-filmweb:before {
+  content: "\e02a";
+}
+.khuveaihlkkeu-firefox:before {
+  content: "\e02b";
+}
+.khuveaihlkkeu-flattr:before {
+  content: "\e02c";
+}
+.khuveaihlkkeu-flickr:before {
+  content: "\e02d";
+}
+.khuveaihlkkeu-formulr:before {
+  content: "\e02e";
+}
+.khuveaihlkkeu-forrst:before {
+  content: "\e02f";
+}
+.khuveaihlkkeu-foursquare:before {
+  content: "\e030";
+}
+.khuveaihlkkeu-friendfeed:before {
+  content: "\e031";
+}
+.khuveaihlkkeu-github:before {
+  content: "\e032";
+}
+.khuveaihlkkeu-goodreads:before {
+  content: "\e033";
+}
+.khuveaihlkkeu-google:before {
+  content: "\e034";
+}
+.khuveaihlkkeu-googlescholar:before {
+  content: "\e035";
+}
+.khuveaihlkkeu-googlegroups:before {
+  content: "\e036";
+}
+.khuveaihlkkeu-googlephotos:before {
+  content: "\e037";
+}
+.khuveaihlkkeu-googleplus:before {
+  content: "\e038";
+}
+.khuveaihlkkeu-grooveshark:before {
+  content: "\e039";
+}
+.khuveaihlkkeu-hackerrank:before {
+  content: "\e03a";
+}
+.khuveaihlkkeu-hearthstone:before {
+  content: "\e03b";
+}
+.khuveaihlkkeu-hellocoton:before {
+  content: "\e03c";
+}
+.khuveaihlkkeu-heroes:before {
+  content: "\e03d";
+}
+.khuveaihlkkeu-smashcast:before {
+  content: "\e03e";
+}
+.khuveaihlkkeu-horde:before {
+  content: "\e03f";
+}
+.khuveaihlkkeu-houzz:before {
+  content: "\e040";
+}
+.khuveaihlkkeu-icq:before {
+  content: "\e041";
+}
+.khuveaihlkkeu-identica:before {
+  content: "\e042";
+}
+.khuveaihlkkeu-imdb:before {
+  content: "\e043";
+}
+.ygsspxscoldvfx:before {
+  content: "\e044";
+}
+.khuveaihlkkeu-issuu:before {
+  content: "\e045";
+}
+.khuveaihlkkeu-istock:before {
+  content: "\e046";
+}
+.khuveaihlkkeu-itunes:before {
+  content: "\e047";
+}
+.khuveaihlkkeu-keybase:before {
+  content: "\e048";
+}
+.khuveaihlkkeu-lanyrd:before {
+  content: "\e049";
+}
+.khuveaihlkkeu-lastfm:before {
+  content: "\e04a";
+}
+.khuveaihlkkeu-line:before {
+  content: "\e04b";
+}
+.khuveaihlkkeu-linkedin:before {
+  content: "\e04c";
+}
+.khuveaihlkkeu-livejournal:before {
+  content: "\e04d";
+}
+.khuveaihlkkeu-lyft:before {
+  content: "\e04e";
+}
+.khuveaihlkkeu-macos:before {
+  content: "\e04f";
+}
+.khuveaihlkkeu-mail:before {
+  content: "\e050";
+}
+.khuveaihlkkeu-medium:before {
+  content: "\e051";
+}
+.khuveaihlkkeu-meetup:before {
+  content: "\e052";
+}
+.khuveaihlkkeu-mixcloud:before {
+  content: "\e053";
+}
+.khuveaihlkkeu-modelmayhem:before {
+  content: "\e054";
+}
+.khuveaihlkkeu-mumble:before {
+  content: "\e055";
+}
+.khuveaihlkkeu-myspace:before {
+  content: "\e056";
+}
+.khuveaihlkkeu-newsvine:before {
+  content: "\e057";
+}
+.khuveaihlkkeu-nintendo:before {
+  content: "\e058";
+}
+.khuveaihlkkeu-npm:before {
+  content: "\e059";
+}
+.khuveaihlkkeu-odnoklassniki:before {
+  content: "\e05a";
+}
+.khuveaihlkkeu-openid:before {
+  content: "\e05b";
+}
+.khuveaihlkkeu-opera:before {
+  content: "\e05c";
+}
+.khuveaihlkkeu-outlook:before {
+  content: "\e05d";
+}
+.khuveaihlkkeu-overwatch:before {
+  content: "\e05e";
+}
+.khuveaihlkkeu-patreon:before {
+  content: "\e05f";
+}
+.khuveaihlkkeu-paypal:before {
+  content: "\e060";
+}
+.khuveaihlkkeu-periscope:before {
+  content: "\e061";
+}
+.khuveaihlkkeu-persona:before {
+  content: "\e062";
+}
+.sclskkqujwzazf:before {
+  content: "\e063";
+}
+.khuveaihlkkeu-play:before {
+  content: "\e064";
+}
+.khuveaihlkkeu-player:before {
+  content: "\e065";
+}
+.khuveaihlkkeu-playstation:before {
+  content: "\e066";
+}
+.khuveaihlkkeu-pocket:before {
+  content: "\e067";
+}
+.khuveaihlkkeu-qq:before {
+  content: "\e068";
+}
+.khuveaihlkkeu-quora:before {
+  content: "\e069";
+}
+.khuveaihlkkeu-raidcall:before {
+  content: "\e06a";
+}
+.khuveaihlkkeu-ravelry:before {
+  content: "\e06b";
+}
+.khuveaihlkkeu-reddit:before {
+  content: "\e06c";
+}
+.khuveaihlkkeu-renren:before {
+  content: "\e06d";
+}
+.khuveaihlkkeu-researchgate:before {
+  content: "\e06e";
+}
+.khuveaihlkkeu-residentadvisor:before {
+  content: "\e06f";
+}
+.khuveaihlkkeu-reverbnation:before {
+  content: "\e070";
+}
+.khuveaihlkkeu-rss:before {
+  content: "\e071";
+}
+.khuveaihlkkeu-sharethis:before {
+  content: "\e072";
+}
+.khuveaihlkkeu-skype:before {
+  content: "\e073";
+}
+.khuveaihlkkeu-slideshare:before {
+  content: "\e074";
+}
+.khuveaihlkkeu-smugmug:before {
+  content: "\e075";
+}
+.khuveaihlkkeu-snapchat:before {
+  content: "\e076";
+}
+.khuveaihlkkeu-songkick:before {
+  content: "\e077";
+}
+.khuveaihlkkeu-soundcloud:before {
+  content: "\e078";
+}
+.khuveaihlkkeu-spotify:before {
+  content: "\e079";
+}
+.khuveaihlkkeu-stackexchange:before {
+  content: "\e07a";
+}
+.khuveaihlkkeu-stackoverflow:before {
+  content: "\e07b";
+}
+.khuveaihlkkeu-starcraft:before {
+  content: "\e07c";
+}
+.khuveaihlkkeu-stayfriends:before {
+  content: "\e07d";
+}
+.khuveaihlkkeu-steam:before {
+  content: "\e07e";
+}
+.khuveaihlkkeu-storehouse:before {
+  content: "\e07f";
+}
+.khuveaihlkkeu-strava:before {
+  content: "\e080";
+}
+.khuveaihlkkeu-streamjar:before {
+  content: "\e081";
+}
+.khuveaihlkkeu-stumbleupon:before {
+  content: "\e082";
+}
+.khuveaihlkkeu-swarm:before {
+  content: "\e083";
+}
+.khuveaihlkkeu-teamspeak:before {
+  content: "\e084";
+}
+.khuveaihlkkeu-teamviewer:before {
+  content: "\e085";
+}
+.khuveaihlkkeu-technorati:before {
+  content: "\e086";
+}
+.khuveaihlkkeu-telegram:before {
+  content: "\e087";
+}
+.khuveaihlkkeu-tripadvisor:before {
+  content: "\e088";
+}
+.khuveaihlkkeu-tripit:before {
+  content: "\e089";
+}
+.khuveaihlkkeu-triplej:before {
+  content: "\e08a";
+}
+.khuveaihlkkeu-tumblr:before {
+  content: "\e08b";
+}
+.khuveaihlkkeu-twitch:before {
+  content: "\e08c";
+}
+.yzsivofejyj:before {
+  content: "\e08d";
+}
+.khuveaihlkkeu-uber:before {
+  content: "\e08e";
+}
+.khuveaihlkkeu-ventrilo:before {
+  content: "\e08f";
+}
+.khuveaihlkkeu-viadeo:before {
+  content: "\e090";
+}
+.khuveaihlkkeu-viber:before {
+  content: "\e091";
+}
+.khuveaihlkkeu-viewbug:before {
+  content: "\e092";
+}
+.khuveaihlkkeu-vimeo:before {
+  content: "\e093";
+}
+.khuveaihlkkeu-vine:before {
+  content: "\e094";
+}
+.khuveaihlkkeu-vkontakte:before {
+  content: "\e095";
+}
+.khuveaihlkkeu-warcraft:before {
+  content: "\e096";
+}
+.khuveaihlkkeu-wechat:before {
+  content: "\e097";
+}
+.khuveaihlkkeu-weibo:before {
+  content: "\e098";
+}
+.khuveaihlkkeu-whatsapp:before {
+  content: "\e099";
+}
+.khuveaihlkkeu-wikipedia:before {
+  content: "\e09a";
+}
+.khuveaihlkkeu-windows:before {
+  content: "\e09b";
+}
+.khuveaihlkkeu-wordpress:before {
+  content: "\e09c";
+}
+.khuveaihlkkeu-wykop:before {
+  content: "\e09d";
+}
+.khuveaihlkkeu-xbox:before {
+  content: "\e09e";
+}
+.khuveaihlkkeu-xing:before {
+  content: "\e09f";
+}
+.khuveaihlkkeu-yahoo:before {
+  content: "\e0a0";
+}
+.khuveaihlkkeu-yammer:before {
+  content: "\e0a1";
+}
+.khuveaihlkkeu-yandex:before {
+  content: "\e0a2";
+}
+.khuveaihlkkeu-yelp:before {
+  content: "\e0a3";
+}
+.khuveaihlkkeu-younow:before {
+  content: "\e0a4";
+}
+.khuveaihlkkeu-youtube:before {
+  content: "\e0a5";
+}
+.khuveaihlkkeu-zapier:before {
+  content: "\e0a6";
+}
+.khuveaihlkkeu-zerply:before {
+  content: "\e0a7";
+}
+.khuveaihlkkeu-zomato:before {
+  content: "\e0a8";
+}
+.khuveaihlkkeu-zynga:before {
+  content: "\e0a9";
+}
